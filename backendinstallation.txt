@@ -1,0 +1,14 @@
+1.npm init
+2.create folders APIs,middleware,server.js
+3.install express and import it into server.js and APIs
+4.create .env(environmental)variables=>(npm install dotenv)
+5.and write this line in the every file (require('dotenv').config())
+6.create the apis and connect them to server.js
+7.install mongodb and import it into the server.js
+8.And make the data base connection
+9.to handle the asynchronous errors install the("npm install express-async-handler) and write the over all code in the expressAsyncHandler
+10.install bcryprt.js to hash the passwords and to check the passwords are correct or not
+11.create login route where we check if username and passwords matched then we creates the jwt token(const signedToken=jwt.sign({username:dbuser.username},process.env.SECRET_KEY,{expiresIn:20}))
+12.for that install ("npm install jsonwebtoken")
+13.and create the routes we need for the project 
+14.And also create the https and check for the results

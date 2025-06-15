@@ -1,0 +1,22 @@
+1.to create the data base => (use {database name})
+2.to show databases => {show databases}
+3.create collection in DB => (db.createCollection("collectionname"))
+4.insertone => db.collectioname.insertone({name:"ravi,age:21})
+5.insertmany => db.collectionname.insertmany({name:"",age:22},{},{})
+6.for findingone => db.collectioname.find({field:{query-op:value}}) query-op=>$eq,$gt
+for equality we can also write({username:'manasa'})
+db.usercollection.find({city:{$in:["hyd","chennai"]}})
+db.userscollection.find({$and:[{city:'hyd'},{age:{$gt:25}}]})
+==>projection to get only required
+.find({},{username:1}){_id:0}
+
+==>to find in an array of elements
+db.usercollection.find({skill:{$all:['css','html']}})
+
+==>to update documents of collection
+db.usercollection.updation(
+  {username:'ravi'},{$set:{user.name:"ravi kumar",age:24}}
+)
+
+==>deleting a documents
+.deleteOne({username:"banu"})

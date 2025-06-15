@@ -1,0 +1,91 @@
+.homePage {
+  font-family: Arial, sans-serif;
+  padding-left: 0px;
+}
+
+.heroSection {
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  background: #fafafa;
+}
+
+.heroDescription {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.visionSection {
+  padding-bottom: 2rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  background: #fff;
+  text-align: center;
+}
+
+.visionText {
+  font-size: 1rem;
+  color: #333;
+}
+
+.categories {
+  padding: 2rem;
+  background: #f0f0f0;
+}
+
+.categoryList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.categoryItem {
+  width: 200px;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.categoryImage {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.readMoreButton {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--crimson);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.readMoreButton:hover {
+  background-color: darkred;
+}
+
+.testimonials {
+  padding: 2rem;
+  background: #fafafa;
+  text-align: center;
+}
+
+.testimonialItem {
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonialImage {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
