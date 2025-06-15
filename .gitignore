@@ -20,3 +20,9 @@ Thumbs.db
 # IDE folders
 .vscode/
 .idea/
+
+# Ignore request and command files
+author.http
+user.http
+backendinstallation.txt
+mangoDBcommands.txt
